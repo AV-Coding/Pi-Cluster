@@ -4,7 +4,7 @@
 
 1. Follow instructions on this website ***up until running the script "install.sh":***
 
-          https://kubecloud.io/setting-up-a-kubernetes-1-11-raspberry-pi-cluster-using-kubeadm-952bbda329c8
+        https://kubecloud.io/setting-up-a-kubernetes-1-11-raspberry-pi-cluster-using-kubeadm-952bbda329c8
 2. Skip creating the configuration file, it is not needed.
 3. Run Command: `sudo swapoff -a`
 4. Add `Environment="KUBELET_EXTRA_ARGS=--fail-swap-on=false"'` to `'/etc/systemd/system/kubelet.service.d/10-kubelet.conf' path.`
